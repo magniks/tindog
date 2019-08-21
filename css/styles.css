@@ -1,0 +1,172 @@
+
+body{
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3{
+  font-family: "Montserrat";
+  font-weight: 900
+}
+
+/* Title */
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+.big-title {
+  font-size: 5rem;
+  line-height: 1.5;
+}
+
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 22%;
+}
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+@media (max-width: 1028px) {
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title{
+    text-align: center;
+  }
+}
+
+/* Features */
+#features{
+  padding: 10rem;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.title-features{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.middle-pic{
+  color: #ef8172;
+  zoom: 350%;
+  margin-bottom: 1rem;
+}
+
+.middle-pic:hover{
+  color: #ff4c68;
+}
+
+.feature-text{
+  color: #8f8f8f;
+  padding: 0 20%;
+}
+
+/* Navbar */
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: Montserrat;
+  font-weight: 300;
+}
+
+/* testimonials section */
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 16%;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* Press */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+
+.pricing-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-name {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+/* CTA */
+#cta{
+  background-color: #ff4c68;
+  padding: 5% 5% 7%
+}
+
+.cta-header{
+  font-family: Montserrat;
+  font-size: 4rem;
+  font-weight: 900;
+  color: #fff;
+  margin: 0 15% 3%;
+}
+
+/* Footer */
+#footer{
+  background-color: #fff;
+  margin: 3rem 0 3rem;
+}
+
+.footer-icon{
+  zoom: 200%;
+  padding: 1rem;
+}
